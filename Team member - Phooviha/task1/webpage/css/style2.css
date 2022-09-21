@@ -1,0 +1,51 @@
+
+.contact-section h1{
+text-align:center;
+color:grey;
+}
+#input-row
+{
+display:flex;
+justify-content:space-between
+margin-bottom:50px;
+padding-bottom:30px;
+box-sizing:border-box;
+font-size:30px;
+
+}
+
+.input-row .input-group
+{
+flex-basis:45%;
+
+}
+input{
+height:30px;
+width:155%;
+border:none;
+border-bottom:1px solid #ccc;
+outline:none;
+padding-bottom:5px;
+font-size:15px;
+}
+
+#input-group input
+{
+font-size:50px;
+}
+
+button
+{
+background:#A52A2A;
+width:20%;
+border:none;
+outline:none;
+height:30px;
+border-radius:25px;
+margin-top:20px;
+font-size:25px;
+}
+
+
+
+
