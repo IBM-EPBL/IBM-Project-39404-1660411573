@@ -1,0 +1,9 @@
+a=int(input('1st number:'))
+b=int(input('2nd number:'))
+print('The odd numbers in the range of',a,' and ',b,' is:')
+if b<a:
+    a,b=b,a
+for i in range(a,b+1):
+    if i%2!=0:
+        print(i,end=' ')
+        
