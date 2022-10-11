@@ -1,0 +1,15 @@
+s=int(input('Enter the start:'))
+e=int(input('Enter the end:'))
+if s>e:
+    s,e=e,s
+print('The prime numbers between',s,'and',e,'are:')
+for i in range(s,e+1):
+    a=0
+    for j in range(2,s):
+        if i%j==0:
+            a=1
+            break
+    if a==0:
+        print(i,end=' ')
+        
+        
